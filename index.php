@@ -47,7 +47,7 @@
                     if($_GET["menu"] == "cv"){
                         // PERBAIKAN 3: 'include' tidak bisa untuk gambar.
                         // Gunakan tag <img> untuk menampilkan gambar.
-                        echo '<img src="images/cv.png" alt="CV" width="100%">';
+                        echo '<img src="cv.png" alt="CV" width="100%">';
                     }
                     
                     // PERBAIKAN 4: Kesalahan sintaks 'menu" == "Galeri' diperbaiki
@@ -71,4 +71,5 @@
         </tr>
     </table>
 </body>
+
 </html>
